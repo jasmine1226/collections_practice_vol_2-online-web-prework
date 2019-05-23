@@ -28,7 +28,7 @@ def count_elements(array)
 end
 
 def merge_data(keys, data)
-  keys.collect do |key|
+  keys.collect do |key, data|
     puts "key = #{key}"
     puts "value = #{key.values}"
     puts "data value = #{data.values}"
