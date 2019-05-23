@@ -28,13 +28,13 @@ def count_elements(array)
 end
 
 def merge_data(keys, data)
-  names = keys.values
+  names = keys.values_at(:first_name)
   puts names
   i = 0
   puts data[0]
     data.each do |item|
       puts "item = #{item}"
-      puts "value = #{item.values}"
+
       if data_k. == names[i]
         keys.merge(data_v)
 
