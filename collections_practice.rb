@@ -31,6 +31,7 @@ def merge_data(keys, data)
   keys.collect do |key|
     puts "key = #{key}"
     puts "value = #{key.values}"
+    puts "data value = #{data.values}"
     data.values.each do |item|
       puts "item = #{item}"
       puts "value = #{item.values}"
