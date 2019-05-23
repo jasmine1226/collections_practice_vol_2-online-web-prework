@@ -30,14 +30,18 @@ end
 def merge_data(keys, data)
   names = key.values
   puts names
-  data.values.each do |item|
-    puts "item = #{item}"
-    puts "value = #{item.values}"
-    if data_k. == key[]
-      keys.merge(data_v)
+  i = 0
+  puts data.values
+    data.values.each do |item|
+      puts "item = #{item}"
+      puts "value = #{item.values}"
+      if data_k. == names[i]
+        keys.merge(data_v)
 
-      puts keys
+        puts keys
+      end
+      i+=1
     end
-  end
+
   keys
 end
