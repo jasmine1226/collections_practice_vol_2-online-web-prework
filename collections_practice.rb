@@ -31,9 +31,9 @@ def merge_data(keys, data)
   keys.collect do |key|
     puts "key = #{key}"
     puts "value = #{key.values}"
-    data.values.each do |data|
-      puts "data = #{data}"
-      puts "value = #{data.values}"
+    data.values.each do |item|
+      puts "item = #{item}"
+      puts "value = #{item.values}"
       if data_k. == key[]
         keys.merge(data_v)
 
