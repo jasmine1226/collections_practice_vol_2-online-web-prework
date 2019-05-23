@@ -28,6 +28,9 @@ def count_elements(array)
 end
 
 def merge_data(keys, data)
+  puts key[0]
+
+
   names = keys.values_at(:first_name).to_s
   puts names
   i = 0
