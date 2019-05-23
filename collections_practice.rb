@@ -32,13 +32,8 @@ def merge_data(keys, data)
   i = 0
 
   data.each do |person|
-    puts "person = #{person}"
+    puts "key = #{person.keys}"
 
-    if data_k. == names[i]
-      keys.merge(data_v)
-
-      puts keys
-    end
     i+=1
   end
 
