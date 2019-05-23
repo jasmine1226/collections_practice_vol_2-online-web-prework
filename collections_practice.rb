@@ -28,6 +28,10 @@ def count_elements(array)
 end
 
 def merge_data(keys, data)
+
+
+  merged_data = []
+  
   names = [keys[0].values, keys[1].values]
   i = 0
 
