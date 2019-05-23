@@ -29,19 +29,18 @@ end
 
 def merge_data(keys, data)
 
-
   merged_data = []
 
   names = [keys[0].values, keys[1].values]
   i = 0
 
   data[0].each do |key, value|
-    puts "key: #{key} value: #{value}"
+    puts "#{i+1}. key: #{key} value: #{value}"
     if key == keys[i].values
       merged_data = keys[i].merge(value)
     end
     i+=1
   end
 
-  keys
+  merged_data
 end
