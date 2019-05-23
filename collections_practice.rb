@@ -36,7 +36,7 @@ def merge_data(keys, data)
   i = 0
 
   data.each do |person|
-    puts "person: #{person}""
+    puts "person: #{person}"
 
     i+=1
   end
