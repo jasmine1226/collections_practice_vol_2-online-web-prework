@@ -38,7 +38,7 @@ def merge_data(keys, data)
   data[0].each do |key, value|
     puts "key: #{key} value: #{value}"
     if key == keys[i].values
-      merged_data << keys[i]
+      merged_data = keys[i].merge(value)
     end
     i+=1
   end
