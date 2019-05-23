@@ -29,22 +29,18 @@ end
 
 def merge_data(keys, data)
   names = [keys[0].values, keys[1].values]
-
-
-  names = keys.values_at(:first_name).to_s
-  puts names
   i = 0
-  puts data[0]
-    data.each do |item|
-      puts "item = #{item}"
+  
+  data.each do |person|
+    puts "person = #{person}"
 
-      if data_k. == names[i]
-        keys.merge(data_v)
+    if data_k. == names[i]
+      keys.merge(data_v)
 
-        puts keys
-      end
-      i+=1
+      puts keys
     end
+    i+=1
+  end
 
   keys
 end
